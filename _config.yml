@@ -2,7 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Libro OOUU-1
-author: Ignacio Tabilo
+author: Equipo docente, Operaciones Unitarias
+copyright: ""
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
@@ -28,9 +29,5 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: true
+  use_issues_button: false
   use_repository_button: true
-
-sphinx:
-  html_context:
-    default_mode: light
